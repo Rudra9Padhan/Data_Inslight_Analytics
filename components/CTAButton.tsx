@@ -1,8 +1,5 @@
 import React from 'react';
 
-// FIX: Update CTAButtonProps to accept all standard button attributes
-// by extending React.ButtonHTMLAttributes<HTMLButtonElement>.
-// This allows passing props like `type` and `disabled`.
 interface CTAButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
     children: React.ReactNode;
     variant?: 'primary' | 'secondary';
