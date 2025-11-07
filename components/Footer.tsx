@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const SocialIcon: React.FC<{ href: string; children: React.ReactNode }> = ({ href, children }) => (
-    <a href={href} target="_blank" rel="noopener noreferrer" className="text-gray-500 dark:text-gray-400 hover:text-blue-500 dark:hover:text-blue-400 transition-colors duration-300">
+    <a href={href} target="_blank" rel="noopener noreferrer" className="text-gray-500
+ dark:text-gray-400 hover:text-blue-500 dark:hover:text-blue-400 transition-colors duration-300">
         {children}
     </a>
 );
