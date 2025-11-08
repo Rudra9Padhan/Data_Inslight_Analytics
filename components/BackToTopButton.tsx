@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 const BackToTopButton: React.FC = () => {
     const [isVisible, setIsVisible] = useState(false);
 
-    // Show button when page is scrolled down
+    // Show button when page is scrolled 
     const toggleVisibility = () => {
         if (window.scrollY > 300) {
             setIsVisible(true);
